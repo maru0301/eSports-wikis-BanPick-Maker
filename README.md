@@ -1,4 +1,4 @@
-# Ban-Pick-Code-Maker
+# eSports-wikis-BanPick-Maker
 
 e-Sports wikisのBan Pickページを編集するWebページ
 プルダウンメニューからチャンピオンを選択し、下部にあるボタンを押すとBan Pick wikiのタグが出力される
