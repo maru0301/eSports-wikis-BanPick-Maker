@@ -19,14 +19,14 @@ class RiotApi
 	
 	public function GetVersion()
 	{
-		$json = $this->GetJson('https://global.api.pvp.net/api/lol/static-data/jp/v1.2/realm?api_key=');
+		$json = $this->GetJson('https://jp1.api.riotgames.com/lol/static-data/v3/realms?api_key=');
 		
 		return $json;
 	}
 	
 	public function GetChampionImage()
 	{
-		$json = $this->GetJson('https://global.api.pvp.net/api/lol/static-data/jp/v1.2/champion?champData=image&api_key=');
+		$json = $this->GetJson('https://jp1.api.riotgames.com/lol/static-data/v3/champions?champData=image&api_key=');
 		
 		return $json;
 	}
