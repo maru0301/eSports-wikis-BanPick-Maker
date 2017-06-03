@@ -26,7 +26,7 @@ class RiotApi
 	
 	public function GetChampionImage()
 	{
-		$json = $this->GetJson('https://jp1.api.riotgames.com/lol/static-data/v3/champions?champData=image&api_key=');
+		$json = $this->GetJson('https://jp1.api.riotgames.com/lol/static-data/v3/champions?champListData=image&dataById=true&api_key=');
 		
 		return $json;
 	}
