@@ -3,6 +3,9 @@
 		"7th heaven": {
 			"code" : "7h"
 		},
+		"Burning Core": {
+			"code" : "BC"
+		},
 		"DeatnatioN FM" : {
 			"code" : "DFM"
 		},
@@ -11,9 +14,6 @@
 		},
 		"Rascal Jester" : {
 			"code" : "RJ"
-		},
-		"SCARZ": {
-			"code" : "SCARZ"
 		},
 		"USG": {
 			"code" : "USG"
